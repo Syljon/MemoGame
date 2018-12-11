@@ -14,8 +14,8 @@ h3 {
 }
 .title {
   font-size: 3rem;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 .playboard {
   width: 310px;
@@ -39,13 +39,10 @@ h3 {
 }
 .flips {
   font-size: 2rem;
-  padding-top: 5vh;
+  padding-top: 2vh;
 }
 
 @media (min-width: 700px) {
-  body {
-    background-color: red;
-  }
   .playboard {
     width: 510px;
     height: 510px;
@@ -53,9 +50,6 @@ h3 {
 }
 
 @media (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
   .playboard {
     width: 610px;
     height: 610px;
